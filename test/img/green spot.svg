@@ -1,0 +1,20 @@
+<svg width="680" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Path 12</title>
+ <desc>Created using Figma</desc>
+ <defs>
+  <path d="m33.8779,11.1048c51.7175,-34.6423 131.6851,16.7235 122.9381,85.6198c-8.748,68.8964 27.124,103.8424 -10.065,126.0494c-37.188,22.208 -100.3241,-31.504 -124.0008,-64.725c-23.6767,-33.22 -40.5899,-112.3019 11.1277,-146.9442z" fill-rule="evenodd" id="path0_fill"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="502" width="682" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" fill="#1dde6b" transform="rotate(-82.88778686523438 291.13760375976557,251.14018249511713) " id="Canvas">
+   <g stroke="null" id="Path 12">
+    <use stroke="null" transform="matrix(3.0843020574434687,0,0,3.2089238720063444,-179.6295116365677,62.28946067113867) " id="svg_1" x="70.633182" y="-55.148195" fill="#1dde6b" xlink:href="#path0_fill"/>
+   </g>
+  </g>
+  <path id="svg_3" d="m397.5,42l80.5,-6l-80.5,6z" stroke-width="1.5" stroke="null" fill="#fff"/>
+ </g>
+</svg>

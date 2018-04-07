@@ -1,0 +1,24 @@
+
+.spot{
+    display: none;
+}
+@media (min-width: 768px) {
+    .spot{
+        display: block;
+        position: absolute;
+        &-main{
+            top:-5rem;
+            right: 0;
+            z-index: 10;
+        }
+        &-footer{
+            top: -10rem;
+            right: 3rem;
+        }
+        &-tablet{
+            top:-5rem;
+            left:0;
+            z-index: -1;
+        }
+    }
+}

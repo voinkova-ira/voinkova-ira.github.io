@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  */
+.view-container{
+    height:80vh;
+    width:100%;
+    background-color:#e7e6e6;
+    overflow: hidden;
+}
+/*  */
+.room{
+    height:100%;
+    width:100%;
+    perspective: 500px;
+    transform-style:preserve-3d;
+
+}
+/* стили стен комнаты */
+.room-wall{
+    position:absolute;
+    transform-style:preserve-3d;
+    transition:  transform 1s ease;
+}
+
+.room-wall--x{
+    width: 500px;
+    height: 100%;
+    background-color: #dbdbdb;
+}
+.room-wall--y{
+    width: 100%;
+    height: 500px;
+    background-color:#d3d3d3;
+
+}
+.room-wall--z{
+    width: 100%;
+    height: 100%;
+    background-color:#e7e6e6;
+}
+.room-wall--y--floor{
+    bottom: 0;
+    transform-origin:50% 100%;
+    transform:rotateX(90deg);
+}
+.room-wall--y--cell{
+    transform-origin:50% 0;
+    transform:rotateX(-90deg);
+}
+.room-wall--x--left{
+    transform-origin:0 50%;
+    transform:rotateY(90deg);
+}
+.room-wall--x--right{
+    right:0;
+    transform-origin:100% 50%;
+    transform:rotateY(-90deg);
+}
+.room-wall--z--behind{
+    transform: translateZ(-700px);
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.romm-wall-img{
+    max-width: 100%;
+    margin: 0 10px 0;
+}

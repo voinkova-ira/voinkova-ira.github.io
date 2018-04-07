@@ -1,0 +1,17 @@
+
+.bg-black{
+    background-color: $black;
+}
+.footer{
+    &-logo{
+        width: 80px;
+        margin-top: 1rem;
+    }
+}
+
+.copyrights{
+    font-size: 12px;
+    color: $white;
+}
+
+

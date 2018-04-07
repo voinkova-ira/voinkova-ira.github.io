@@ -1,0 +1,89 @@
+
+.scenario{
+    background-color: $yellow;
+    margin-top: 15rem;
+    padding: 0 0 7rem 0.5rem;
+    z-index: -4;
+    &-content{
+        padding-top: 90%;
+        &-title{
+            font-size: 3rem;
+            color:$sand;
+        }
+        &-add-text{
+            color:$sand;
+        }
+    }
+}
+.block{
+    position: absolute;
+    &-gold{
+        background-color: $gold;
+        width: 90%;
+        height: 25rem;
+        position: absolute;
+        top: -11rem;
+    }
+    &-title{
+        color: $white;
+        padding: 0.5rem;
+    }
+    &-media{
+        &-img{
+            width:100%;
+        }
+        top: 10%;
+        left: 30%;
+    }
+}
+
+@media (min-width: 576px) {
+    .block{
+        &-title{
+            padding: 3rem;
+            font-size: 3rem;
+        }
+        &-media{
+            top: 18%;
+        }
+    }
+    .scenario{
+        &-content{
+            padding-left: 3rem;
+        }
+    }
+ }
+@media (min-width: 768px) {
+    .block{
+        &-gold{
+            width: 66%;
+            height: 30rem;
+        }
+        &-media{
+            top: 25%;
+            left: 53%;
+        }
+    }
+    .scenario{
+        &-content{
+            padding-top: 55%;
+        }
+    }
+ }
+
+@media (min-width: 1200px) {
+    .block{
+        &-gold{
+            height: 38rem;
+        }
+        &-title{
+            padding: 4rem 0 0 5rem;
+        }
+    }
+    .scenario{
+        &-content{
+            padding-left: 5rem;
+        }
+    }
+}
+

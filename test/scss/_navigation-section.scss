@@ -1,0 +1,33 @@
+.bg{
+    &-green{
+        background-color: $darkgreen;
+        position: relative;
+    }
+    &-white{
+        height: 2.5rem;
+        width:100%;
+        position: absolute;
+        background-color: $white;
+        top: -3px;
+    }
+}
+.navigation{
+    &-title{
+        font-size: 3rem;
+    }
+    &-subtitle{
+        display: block;
+        font-size: 2rem;
+    }
+}
+.text-green{
+    color: $green;
+}
+
+@media (min-width: 576px) {
+    .navigation{
+        &-subtitle{
+            font-size: 3rem;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+.logo{
+    padding: 1rem 0.5rem;
+}
+.banner{
+    position: relative;
+    background: $yellow;
+    margin-top: 0.5rem;
+    &-title{
+        color: $white;
+        background-color: $darkgreen;
+        padding: 1rem; 
+        margin: 0;
+    }
+}
+
+@media (min-width: 623px) {
+    .banner{
+        margin-top: 5rem;
+        &-title{
+            padding: 2rem 5rem; 
+            font-size: 50px;
+            position: absolute;
+            top: -12%;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .banner{
+        &-title{
+            padding: 4rem 12rem 4rem; 
+            font-size: 60px;
+        }
+    }
+}
